@@ -1,28 +1,15 @@
 .header {
-    position: fixed;
     height: 50px;
     width: 100%;
     margin-bottom: 30px;
     background-color: grey;
     border-bottom: 1px black solid;
-    opacity:80%;
     display: flex;
     justify-content: space-between;
 }
 
-.links {
-    display: inline-block;
-}
-
-.links a {
-    cursor: pointer;
-    font-size: 28px;
-    margin-right: 14px;
-}
-
-.links a:hover{
-    color: white;
-    font-size: 30px;
+.title {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .about {
@@ -32,7 +19,7 @@
     margin-top: 80px;
     height: fit-content;
     width: 100%;
-    border: 1px solid black;
+    background-color: darkgrey;
     
 }
 
@@ -57,23 +44,25 @@
 
 .project-list {
     position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: flex-start;
     margin-top: 680px;
-    height: fit-content;
+    height: 200px;
 }
 
 .project-card {
     display: flex;
     height: fit-content;
-    margin-left: 33vw;
     margin-bottom: 20px;
-    width: 500px;
+    width: fit-content;
     justify-content: space-between;
     border: 1px solid black;
 }
 
 .contact-info {
     position: absolute;
-    margin-top: 800px;
+    margin-top: 1000px;
     height: fit-content;
 
 }

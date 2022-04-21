@@ -4,6 +4,8 @@ const ProjectList = () =>{
 
     return(
         <div className="project-list">
+
+            <div>Project Work:</div><br />
             {projects.map((projects,key)=>{
                 return (
                 <div key={key} className="project-card">
@@ -14,7 +16,7 @@ const ProjectList = () =>{
                         Site URL:<br />
                         {projects.link}<br />
                         GitHub Repo:<br />
-                        {projects.github}
+                        <a href={projects.github} target="_blank">{projects.name}</a>
 
                     </div>
                     <div className="project-photo">

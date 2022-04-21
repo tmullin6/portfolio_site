@@ -7,14 +7,9 @@ const Header = ()=>{
   return(
     <div className="header">
       <div className="title">
-          <p>Tyler Mullins Web Developer</p>
+          <p>Tyler Mullins <br />Self Taught Fullstack Web Developer</p>
       </div>
-      <div className="links">
-          <a>About</a>
-          <a>Projects</a>
-          <a>Tech</a>
-          <a>Contact</a>
-      </div>
+     
     </div>
   )
 }
