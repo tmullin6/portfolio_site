@@ -1,13 +1,79 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.header {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: grey;
+    border-bottom: 1px black solid;
+    opacity:80%;
+    display: flex;
+    justify-content: space-between;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.links {
+    display: inline-block;
+}
+
+.links a {
+    cursor: pointer;
+    font-size: 28px;
+    margin-right: 14px;
+}
+
+.links a:hover{
+    color: white;
+    font-size: 30px;
+}
+
+.about {
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-top: 80px;
+    height: fit-content;
+    width: 100%;
+    border: 1px solid black;
+    
+}
+
+.tech {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-top: 400px;
+    height: fit-content;
+    width: 100%;
+   
+}
+
+.tech-box {
+    height: 250px;
+    overflow-wrap: break-word;
+    width: 200px;
+    border: 1px solid black; 
+}
+
+.project-list {
+    position: absolute;
+    margin-top: 680px;
+    height: fit-content;
+}
+
+.project-card {
+    display: flex;
+    height: fit-content;
+    margin-left: 33vw;
+    margin-bottom: 20px;
+    width: 500px;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.contact-info {
+    position: absolute;
+    margin-top: 800px;
+    height: fit-content;
+
 }

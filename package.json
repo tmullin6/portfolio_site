@@ -33,5 +33,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-markdown": "^8.0.2",
+    "remark-gfm": "^3.0.1"
   }
 }
